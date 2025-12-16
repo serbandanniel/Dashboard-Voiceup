@@ -25,7 +25,7 @@ const CompetitorsTable: React.FC = () => {
     { nr: 20, name: "VÎRGĂ Ingrid-Sofia", pieces: 1, price: 300 },
     { nr: 21, name: "VLAD David - Andrei", pieces: 1, price: 300 },
     { nr: 22, name: "YILDIRIM Emine", pieces: 1, price: 300 },
-    { nr: 23, name: "Înscriere Suplimentară / Tardivă", pieces: 1, price: 300 },
+    { nr: 23, name: "Înscriere Neprezentată", pieces: 1, price: 300 },
   ];
 
   const total = competitors.reduce((acc, curr) => acc + curr.price, 0);
