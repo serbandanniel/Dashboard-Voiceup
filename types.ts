@@ -11,6 +11,7 @@ export interface ExpenseItem {
   name: string;
   val: number;
   user: string;
+  deductible: boolean; // Field for tax logic
   timestamp: number;
 }
 
@@ -22,6 +23,6 @@ export const SEED_INCOMES: Omit<IncomeItem, 'id' | 'timestamp'>[] = [
 ];
 
 export const SEED_EXPENSES: Omit<ExpenseItem, 'id' | 'timestamp'>[] = [
-  { name: "Promovare Facebook", val: 964.52, user: "Sistem" },
-  { name: "Promovare TikTok", val: 1105.00, user: "Sistem" }
+  { name: "Promovare Facebook", val: 964.52, user: "Sistem", deductible: true },
+  { name: "Promovare TikTok", val: 1105.00, user: "Sistem", deductible: true }
 ];
