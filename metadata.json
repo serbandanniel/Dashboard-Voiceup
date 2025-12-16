@@ -1,0 +1,5 @@
+{
+  "name": "VoiceUP Festival Dashboard",
+  "description": "Real-time financial reporting and program management dashboard for VoiceUP Festival using Firebase.",
+  "requestFramePermissions": []
+}
